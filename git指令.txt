@@ -1,0 +1,43 @@
+# 全局设置一次就好
+git config --global user.name Eason-Xeno
+
+git config --global user.password xxy20041011
+
+git config --global user.email “1835758525@qq.com”
+
+
+
+
+# 初始化
+git init
+# 查看状态
+git status
+# 追踪文件，添加到暂存区
+git add filename;
+# 从暂存区移除
+git rm --cached filename
+
+# 暂存区确认之后，即可commit
+git commit -m "first-commit" filename;
+
+# 查看提交的历史版本
+git reflog
+
+# 推送自己的代码到远程仓库
+git push http链接 或者ssh链接
+
+
+
+
+git reflog
+git reset --hard 版本号
+
+
+
+
+# 从远程仓库拉取到本地仓库
+git pull http链接或者ssh链接
+
+
+
+
